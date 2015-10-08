@@ -4,7 +4,7 @@ import scraperwiki
 from datetime import datetime
 import grequests
 
-start_url = 'http://www.amazon.com/Best-Sellers-Toys-Games/zgbs/toys-and-games/ref=zg_bs_nav_0'
+start_url = 'http://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_unv_b_1_287339_4'
 
 asins=[]
 def scrape(response, **kwargs):
