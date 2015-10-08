@@ -6,7 +6,6 @@ import grequests
 
 start_url = 'http://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_unv_b_1_287339_4'
 
-asins=[]
 def scrape(response, **kwargs):
         listing_soup = bs(response.text, 'lxml')
         asin_nums = listing_soup.find_all('div', 'zg_itemImageImmersion')
